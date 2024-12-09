@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurs</title>
+    <script></script>
+</head>
+<body>
+    <marquee onmouseover="this.stop()" onmouseout="this.start()">Tukarkn Duitmu Maka Kamu Tidak Dapat Duit</marquee>
+    <div style="padding: 10px;background: gray; border: 1px dotted black;">
+     <form id="form">
+        Nilai <input type="text" name="nilai">
+        <select name="kurs" onchange="hitungKurs()">
+            <option value="">--PILIH KURS --</option>
+            <option value="15800">Dollar Usa</option>
+            <option value="18000">Euro</option>
+            <option value="2150">Yuan</option>
+            <option value="3000">Ringgit</option>
+            <option value="1000">Dollar Singapura</option>
+            <option value="4000">Riyal</option>
+        </select>
+        <input type="text" name="hasil">
+     </form>   
+    </div>
+</body>
+</html>
